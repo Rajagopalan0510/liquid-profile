@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rajagopalan | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+.profile-page{
+    min-height:100vh;
+    padding:40px 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.profile-card{
+    width: 900px;px;
+    max-width:95%;
+    padding:25px;
+    border-radius:25px;
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(25px);
+    border:1px solid rgba(255,255,255,0.15);
+    color:white;
+}
+
+.profile-top{
+    text-align:center;
+}
+
+.profile-img{
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    object-fit:cover;
+    border:3px solid rgba(255,255,255,0.4);
+}
+
+h1{
+    margin-top:15px;
+    font-size:2rem;
+}
+
+.bio{
+    margin-top:10px;
+    color:#ddd;
+    line-height:1.8;
+}
+
+.socials{
+    margin-top:25px;
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.socials a{
+    text-decoration:none;
+    color:white;
+    padding:12px 18px;
+    border-radius:12px;
+    background:rgba(255,255,255,0.1);
+    border:1px solid rgba(255,255,255,0.15);
+}
+
+.section-title{
+    margin-top:40px;
+    margin-bottom:20px;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.project-card{
+    padding:20px;
+    border-radius:20px;
+    background:rgba(255,255,255,0.08);
+    border:1px solid rgba(255,255,255,0.15);
+    transition:0.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-8px);
+}
+
+.project-card h3{
+    margin-bottom:10px;
+}
+
+.project-card p{
+    color:#ddd;
+}
+
+.github-btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 15px;
+    border-radius:10px;
+    text-decoration:none;
+    color:white;
+    background:rgba(255,255,255,0.1);
+}
+</style>
+
+</head>
+<body class="profile-page">
+
+<div class="blob blob1"></div>
+<div class="blob blob2"></div>
+<div class="blob blob3"></div>
+<div class="blob blob4"></div>
+
+<div class="profile-card">
+
+    <div class="profile-top">
+
+        <img src="assets/profile.jpg" class="profile-img">
+
+        <h1>RAJAGOPALAN</h1>
+
+        <p class="bio">
+            🚀 B.Sc Computer Science Student <br>
+            💻 Frontend Developer <br>
+            🎨 Building modern web experiences with HTML • CSS • JavaScript • GitHub<br>
+            🌟 Turning ideas into interactive projects, one line of code at a time.
+        </p>
+
+        <div class="socials">
+            <a href="https://www.instagram.com/naughty_boy____raj?igsh=Y3czbTduZHoyaWFn" target="_blank">
+                Instagram
+            </a>
+
+            <a href="https://github.com/Rajagopalan0510" target="_blank">
+                GitHub
+            </a>
+        </div>
+
+    </div>
+
+    <h2 class="section-title">🔥 Featured Projects</h2>
+
+    <div class="projects">
+
+        <div class="project-card">
+
+    <img src="assets/studybuddy.png" alt="Study Buddy">
+
+    <h3>Study Buddy</h3>
+
+    <p>
+        Student productivity dashboard with notes,
+        timetable, timer and task management.
+    </p>
+
+    <a href="https://rajagopalan0510.github.io/STUDY-BUDDY/"
+   class="github-btn"
+   target="_blank">
+   🚀 Live Demo
+</a>
+
+</div>
+
+        <div class="project-card">
+
+    <img src="assets/cineflow.png" alt="CineFlow">
+
+    <h3>CineFlow</h3>
+
+    <p>
+        Modern movie themed UI with smooth animations.
+    </p>
+
+    <a href="https://rajagopalan0510.github.io/CINEFLOWW/"
+   class="github-btn"
+   target="_blank">
+   🎬 Live Demo
+</a>
+
+</div>
+
+        <div class="project-card">
+
+    <img src="assets/card3d.png" alt="3D Card">
+
+    <h3>3D Circular Card</h3>
+
+    <p>
+        Interactive 3D glassmorphism card design.
+    </p>
+
+    <a href="https://rajagopalan0510.github.io/3D-Circular-images/"
+   class="github-btn"
+   target="_blank">
+   💎 Live Demo
+</a>
+
+</div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
